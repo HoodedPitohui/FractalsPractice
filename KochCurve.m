@@ -6,7 +6,10 @@ p1 = [0, 0];
 p2 = [dist, 0];
 p3 = [dist / 3, 0];
 p4 = [dist - dist / 3, 0];
-test2 = (dist - dist /3 ) - (dist / 3)
+counter = 1;
+limit = 2;
+drawKochLine(p1, p2, dist, counter, limit);
+test2 = (dist - dist / 3 ) - (dist / 3)
 p5 = [test2 + test2 * cosd(60), test2 * sind(60)];
 xlim([0 1])
 ylim([-1 1])

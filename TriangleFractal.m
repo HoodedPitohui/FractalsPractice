@@ -5,7 +5,7 @@ p1 = [0, 0];
 p2 = [dist, 0];
 p3 = [dist * cosd(60), dist * sind(60)];
 counter = 1;
-limit = 5;
+limit = 9;
 redFactor = 0.5;
 xlim([0, dist]);
 ylim([0, dist]);
