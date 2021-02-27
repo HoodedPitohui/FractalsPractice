@@ -9,7 +9,7 @@ p1 = [0, 0];
 p2 = [dist, 0];
 
 counter = 1;
-limit = 1;
+limit = 2;
 drawKochLine(p1, p2, dist, degree, counter, limit);
 
 
