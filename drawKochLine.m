@@ -1,9 +1,9 @@
 function [] = drawKochLine(p1, p2, dist, degree, counter, limit)
     if (counter == limit)
         subDist = dist / 3;
-        p3 = [p1(1) + subDist * cosd(degree), p1(2) + subDist * sind(degree)]
-        p5 = [p3(1) + cosd(60 + degree) * subDist, p3(2) + sind(60 + degree) * subDist]
-        p4 = [p2(1) - subDist * cosd(degree), p2(2) + subDist * sind(-degree)]
+        p3 = [p1(1) + subDist * cosd(degree), p1(2) + subDist * sind(degree)];
+        p5 = [p3(1) + cosd(60 + degree) * subDist, p3(2) + sind(60 + degree) * subDist];
+        p4 = [p2(1) - subDist * cosd(degree), p2(2) + subDist * sind(-degree)];
         
         plotTwoPoints(p3, p5);
         plotTwoPoints(p4, p5);
@@ -12,9 +12,9 @@ function [] = drawKochLine(p1, p2, dist, degree, counter, limit)
     elseif (counter < limit)
         
         subDist = dist / 3;
-        p3 = [p1(1) + subDist * cosd(degree), p1(2) + subDist * sind(degree)]
-        p5 = [p3(1) + cosd(60 + degree) * subDist, p3(2) + sind(60 + degree) * subDist]
-        p4 = [p2(1) - subDist * cosd(degree), p2(2) + subDist * sind(-degree)]
+        p3 = [p1(1) + subDist * cosd(degree), p1(2) + subDist * sind(degree)];
+        p5 = [p3(1) + cosd(60 + degree) * subDist, p3(2) + sind(60 + degree) * subDist];
+        p4 = [p2(1) - subDist * cosd(degree), p2(2) + subDist * sind(-degree)];
         %plotTwoPoints(p3, p5);
         %plotTwoPoints(p4, p5);
         %plotTwoPoints(p1, p3);

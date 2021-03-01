@@ -24,7 +24,7 @@ drawKochLine(p2, p3, dist, degree3, counter, limit);
 
 %%Scaling the axes
 center = [(p2(1) - p1(1)) / 2, (p3(2) + (p1(2) + sind(60) * (dist / 3))) / 2];
-distFactor = (p1(2) + sind(60) * (dist / 3)) + abs(center(2) - 0);
+distFactor = dist / 2;
 yBottom = center(2) - distFactor;
 xLeft = center(1) - distFactor;
 xRight = center(1) + distFactor;
