@@ -7,7 +7,7 @@ hold on
 dist = 2;
 degree1 = 0;
 counter = 1;
-limit = 3;
+limit = 5;
 degree2 = 120;
 degree3 = 240;
 
@@ -32,3 +32,11 @@ yTop = center(2) + distFactor;
 height1 = 9;
 xlim([xLeft xRight])
 ylim([yBottom yTop])
+
+
+%%Set the Title
+s1 = 'Koch Snowflake with ';
+s2 = ' ' + string(limit);
+s3 = ' Iterations';
+s4 = strcat(s1, s2, s3);
+title(s4);
