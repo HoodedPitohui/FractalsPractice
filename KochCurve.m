@@ -14,7 +14,7 @@ p3 = [0 + cosd(-60) * dist, 0 + sind(-60) * dist];
 %plotTwoPoints(p2, p3);
 
 counter = 1;
-limit = 2;
+limit = 5;
 drawKochLine(p1, p2, dist, degree, counter, limit);
 
 
