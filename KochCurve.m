@@ -2,7 +2,7 @@ clear
 figure
 hold on
 
-dist = 2;
+dist = 1;
 degree = 0;
 
 p1 = [0, 0];
@@ -15,7 +15,7 @@ p3 = [0 + cosd(-60) * dist, 0 + sind(-60) * dist];
 
 counter = 1;
 limit = 2;
-%drawKochLine(p1, p2, dist, degree, counter, limit);
+drawKochLine(p1, p2, dist, degree, counter, limit);
 
 
 xlim([0 dist])
